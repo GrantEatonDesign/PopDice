@@ -106,7 +106,8 @@ img {
 }
 
 footer {
-  height: 50px;
+  height: 100px;
+  background-color: #1F262A;
   position: relative;
   top: 200px;
 }
@@ -115,5 +116,6 @@ footer {
   font-family: 'Prompt';
   font-weight: lighter;
   size: .5rem;
-  color: #1F262A;
+  color: white;
+  margin-top: 38px;
 }
