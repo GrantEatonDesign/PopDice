@@ -55,10 +55,9 @@ p {
 .Middle-container {
   margin: auto;
   text-align: center;
-
-  position: relative;
   align-items: center;
   font-family: 'Prompt';
+    height: 100%;
 }
 
 
@@ -70,6 +69,13 @@ top: 50px;
 
 }
 
+.victor-message-row {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
 .Victor-Message {
   font-family: 'Prompt';
@@ -81,7 +87,13 @@ top: 50px;
   margin-top: 70px;
 }
 
-
+.row {
+  display: flex;
+  align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
 .Player-1 {
 
@@ -107,8 +119,9 @@ img {
 footer {
   height: 100px;
   background-color: #1F262A;
-  position: relative;
-  top: 200px;
+  bottom:0px;
+  margin-top: 200px;
+
 }
 
 .Footer-Text {
